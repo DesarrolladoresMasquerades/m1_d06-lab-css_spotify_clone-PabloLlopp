@@ -42,11 +42,16 @@ nav ul {
     list-style: none;
 }
 
+.nav-bar a {
+    text-decoration: none;
+    color: black;
+}
+
 
 .cover {
     background-image: url(../images/landing.jpg);
     background-size: cover;
-    height: 1000px;
+    height: 900px;
     color: white;
     padding: 10px;
     display: flex;
@@ -76,8 +81,9 @@ h2 {
     font-weight: 600;
 }
 
-.discover {
-   
+.discover hr {
+   width: 270px;
+   border-top: 4px solid #00B172;
 }
 
 .boxes {
@@ -114,7 +120,8 @@ h3 {
     background-position: center center;
     background-repeat: no-repeat;
     background-size: 100px;
-    height: 850px;
+    height: 650px;
+    padding-bottom: 10px;
     margin: 0 30px;
     display: flex;
     justify-content: space-between;
@@ -125,18 +132,18 @@ h3 {
 
 .text-box {
     padding-left: 100px;
-    width: 550px;
+    width: 600px;
 }
 
 h4 {
-    font-size: 40px;
+    font-size: 35px;
     border-bottom: white solid 2px;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 h5 {
-    font-size: 30px;
-    padding-top: 15px;
+    font-size: 25px;
+    padding-top: 5px;
 }
 
 .text-box p {
@@ -145,7 +152,7 @@ h5 {
 }
 
 .img-box img{
-    width: 360px;
+    width: 340px;
     padding-right: 100px;
 }
 
